@@ -26,7 +26,8 @@
     "dev": "vite",
     "build": "vite build && vue-tsc --emitDeclarationOnly",
     "demo": "vite build -c vite.demo.config.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@solana-mobile/wallet-adapter-mobile": "^1.0.0",

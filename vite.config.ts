@@ -38,5 +38,11 @@ export default defineConfig({
     },
     sourcemap: true,
     minify: false,
+    target: "esnext",
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      target: "esnext",
+    },
   },
 });
